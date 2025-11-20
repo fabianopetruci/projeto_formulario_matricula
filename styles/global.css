@@ -26,23 +26,16 @@
 
 body {
     overflow: hidden; /* nunca vai ter rolagem */
+    
+    font: var(--text);
+    color: var(--text-secondary);
 }
 
-main {
-    overflow: auto;
-    padding: 4rem; /* 1 rem = 16px, 64/16 = 4rem */
+h1, h2 {
+    color: var(--text-primary);
 }
 
-main .main-container {
-    max-width: 33rem;/* = 528px */
-    margin-left: auto;
-}
-
-aside {
-    background-color: var(--surface-secondary);
-    padding: 4rem;/* = 64px */
-}
-
-aside .aside-container {
-    max-width: 31rem;/* = 496px */
+img {
+    max-width: 100%;
+    height: auto;
 }
